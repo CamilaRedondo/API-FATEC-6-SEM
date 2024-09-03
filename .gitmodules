@@ -4,3 +4,6 @@
 [submodule "datalake-etl"]
 	path = datalake-etl
 	url = https://github.com/CamilaRedondo/API-FATEC-6-SEM-ETL
+[submodule "backend"]
+	path = backend
+	url = https://github.com/CamilaRedondo/API-FATEC-6-SEM-BACKEND
