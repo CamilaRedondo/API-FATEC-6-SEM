@@ -1,3 +1,6 @@
 [submodule "ia"]
 	path = ia
 	url = https://github.com/CamilaRedondo/API-FATEC-6-SEM-IA
+[submodule "datalake-etl"]
+	path = datalake-etl
+	url = https://github.com/CamilaRedondo/API-FATEC-6-SEM-ETL
