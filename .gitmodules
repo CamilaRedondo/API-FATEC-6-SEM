@@ -7,3 +7,6 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/CamilaRedondo/API-FATEC-6-SEM-BACKEND
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/CamilaRedondo/API-FATEC-6-SEM-FRONTEND
