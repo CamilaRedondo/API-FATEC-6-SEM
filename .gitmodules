@@ -1,0 +1,3 @@
+[submodule "ia"]
+	path = ia
+	url = https://github.com/CamilaRedondo/API-FATEC-6-SEM-IA
