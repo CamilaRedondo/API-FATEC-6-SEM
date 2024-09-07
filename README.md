@@ -15,10 +15,11 @@
 
 <br>
 
-<h1 align="center"><samp>O PROJETO</samp></h1>
-
-![Equipe bytech](/readme/Objetivo.png)
-
+<h1 align="center"><samp>O PROJETO</samp>
+  
+  ![Equipe bytech](/readme/Objetivo.png)
+  
+</h1>
 <br>
 <h1 align="center"><samp>PROPOSTA</samp></h1>
 
@@ -39,27 +40,31 @@ As principais funcionalidades do sistema incluem que o chatbot permitirá que os
 
 
 
-<h1 align="center"><samp>BACKLOG DO PRODUTO</samp></h1>
+<h1 align="center"><samp>BACKLOG DO PRODUTO</samp>
 
 ![Equipe bytech](/readme/BacklogProduto.png)
+
 
 <br>
 
 ![Equipe bytech](/readme/BacklogPadrao.png)
 
 <br>
+
+</h1>
 <h1 align="center"><samp>DETALHES DAS SPRINTS</samp></h1>
 <h2>Sprint 1</h2>
 <details>
   <summary>Detalhes</summary>
-<h3 align="center">Backlog da Sprint</h3>
+<h3 align="center">Backlog da Sprint
 
 ![Equipe bytech](/readme/BacklogSprint1.png)
 
    <br>
-
-<h3 align="center">Critérios de aceitação</h3>
+</h3>
+<h3 align="center">Critérios de aceitação
 
 ![Equipe bytech](/readme/CriteriosdeAceitacao1.png)
 
    <br>
+</h3>
