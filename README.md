@@ -19,16 +19,23 @@
   
   ![Equipe bytech](/readme/Objetivo.png)
   
+  
 </h1>
 <br>
 <h1 align="center"><samp>PROPOSTA</samp></h1>
 
-<p align = "justify"> O objetivo da aplicação é criar um chatbot baseado em IA generativa, capaz de responder a perguntas do setor de marketing da B2W. O chatbot utilizará uma técnica de RAG (Retrieval Augmented Generation) para buscar respostas na base de dados de comentários de clientes, transformando essas informações em respostas em linguagem natural. A finalidade é fornecer insights valiosos sobre a experiência de compra dos clientes, identificando padrões de comportamento e auxiliando na tomada de decisões estratégicas para melhorar a satisfação e o engajamento dos clientes.<br>
-As principais funcionalidades do sistema incluem que o chatbot permitirá que os usuários realizem consultas específicas sobre a experiência de compra, satisfação e comportamento dos clientes, com base em categorias de produto ou segmentação demográfica. Além disso, fornecerá respostas personalizadas de acordo com as necessidades dos analistas, oferecendo insights detalhados sobre campanhas e segmentos de consumidores. O sistema também será capaz de realizar análise de sentimentos, identificando o tom dos comentários dos clientes (positivo, negativo ou neutro) para auxiliar na otimização das estratégias de marketing. Para garantir uma experiência de uso eficiente, o chatbot será projetado com uma interface amigável e intuitiva.  </p>
+<p align = "justify"> A proposta deste projeto é construir um sistema que utilize os depoimentos de clientes disponíveis  na fonte da B2W para fornecer respostas claras e personalizadas. Combinando técnicas de NLP com análise de sentimentos e geração de linguagem natural, o chatbot será capaz de extrair informações valiosas e tendências de comportamento dos consumidores. Isso permitirá à equipe de marketing realizar análises mais precisas, identificando pontos de melhoria na experiência de compra e ajustando suas campanhas de acordo com as percepções dos clientes. </p>
+
+<br>
+<h1 align="center"><samp>SOLUÇÃO</samp></h1>
+
+<p align = "justify"> A solução envolve o desenvolvimento de um chatbot baseado em IA generativa que utiliza um pipeline de processamento de dados capaz de acessar a base de dados de depoimentos dos clientes da B2W. Este pipeline processará as informações e armazenará os dados em um banco de vetores, permitindo ao chatbot usar a técnica RAG para fornecer respostas em linguagem natural, personalizadas de acordo com as necessidades da equipe de marketing.   </p>
 
 ### 📖 Requisitos funcionais
-+ Desenvolver uma interface de chatbot;
-+ Implementar um sistema de consulta e recuperação de dados;
++ Busca de Respostas na Base de Dados;
++ Geração de Respostas em Linguagem Natural;
++ Integração com a Base de Dados de Vetores;
++ Engenharia de Prompt;
 
 
 ### 🔖 Requisitos não funcionais
