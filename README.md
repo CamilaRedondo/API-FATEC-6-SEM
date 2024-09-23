@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>API-2024.2</h1>
+  <h1>API 6º SEMESTRE</h1>
 </div>
 
 <div align="center">
@@ -24,10 +24,9 @@
 <p align="left"> A proposta visa o desenvolvimento de um chatbot inteligente baseado em IA generativa que será capaz de analisar uma vasta base de depoimentos de clientes da B2W. Esse sistema usará a técnica RAG (Retrieval Augmented Generation) para buscar respostas diretamente da base de dados vetorizada, proporcionando insights rápidos e precisos. O chatbot auxiliará equipes de marketing na personalização de campanhas e estratégias publicitárias, identificando tendências e áreas de melhoria a partir de comentários reais dos clientes. Dessa forma, ele ajudará a ajustar estratégias rapidamente e sugerir novos segmentos, otimizando a eficácia das campanhas de marketing.</p>
 
 ## 📖 Requisitos funcionais
-+ Busca de Respostas na Base de Dados;
-+ Geração de Respostas em Linguagem Natural;
-+ Integração com a Base de Dados de Vetores;
-+ Engenharia de Prompt;
++ Desenvolver um pipeline de processamento de dados para banco de vetor;
++ Desenvolver um agente para engenharia de prompt em LLM;
++ Desenvolver uma interface de chatbot integrado com agente de LLM
 
 ## 🔖 Requisitos não funcionais
 + Tutorial do Usuário
@@ -39,6 +38,18 @@
 <div name="backlog"></div> 
 
  # :bulb: Backlog
+
+
+| Rank | Prioridade | User Story                                                                                                                                                      | Estimativa | Sprint | Requisito do Parceiro |
+|:----:|:----------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------:|:------:|:---------------------:|
+| 1    | Alta       | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre satisfação do cliente, padrões de compra e menções a produtos específicos.| 21         | 1      | RF1                |
+| 2    | Alta       | Análise de Satisfação do Cliente e Recorrência de Compra<br>Como um analista de marketing, eu quero interagir com o chatbot criado para obter dados de satisfação do cliente e recorrência de compra, para que eu possa focar nas métricas mais relevantes para campanhas de marketing | 21         |    1    |      RF2              |
+| 3    | Alta       | Análise de Sentimento em Reviews de Produtos<br>Como um analista de marketing, eu quero interagir com o chatbot para que ele analise o sentimento das reviews dos clientes (positivo, neutro, negativo) sobre produtos específicos, para que eu possa ajustar minhas campanhas conforme o sentimento predominante. | 25         | 1      |      RF2                   |
+| 4    | Média      | Comparação de Experiência de Compra por Perfil de Cliente<br>Como um analista de marketing, eu quero interagir com o chatbot e fazer perguntas sobre a experiência de compra de clientes específicos (idade, gênero, região), para que eu possa obter insights personalizados para campanhas direcionadas. |      13      | 2      | RF1 - RF2                   |
+| 5    | Média      | Recomendações Baseadas em Satisfação e Recorrência<br>Como um analista de marketing, eu quero interagir com o chatbot para receber recomendações automáticas de produtos com alto índice de satisfação e recorrência de compra, para que eu possa otimizar minhas campanhas publicitárias. |       13     | 2      | RF1 - RF2                   |
+| 6    | Média      | Classificação e Priorização de Produtos para Marketing<br>Como um analista de marketing, eu quero interagir com o chatbot para visualizar uma classificação clara dos produtos (muito bom, bom, neutro, ruim) com base em reviews e métricas de satisfação, para que eu possa priorizar os produtos para campanhas publicitárias. |      21      | 2      | RF1 - RF2                   |
+| 7    | Baixa      | Usabilidade<br>Como um usuário final, eu quero interagir com uma interface intuitiva, para que eu possa acessar facilmente todas as funcionalidades do chatbot                                                                                                                            |      10      |   2     |          RF3            |
+| 8    | Baixa      |  Tutorial para Novos Usuários<br>Como um usuário final não técnico, eu quero interagir com um tutorial, para que eu possa aprender a utilizar o chatbot e todas as suas funcionalidades de forma rápida e eficiente.                                                                                                                            |      20      |   3     |          RNF1            |
 
 </br>
 </br>
