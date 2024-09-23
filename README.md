@@ -1,77 +1,121 @@
-# API-FATEC-6-SEM
-<p align="center"> <img src="/readme/Logo.png" alt="Equipe bytech"/></p>
-<br>
-<p align="center">
-  <samp>
-    <a href="#o-projeto">Projeto</a> ▪️
-    <a href="#proposta">Proposta</a> ▪️
-    <a href="#tecnologias">Tecnologias</a> ▪️
-    <a href="#backlog-do-produto">Backlog do Produto</a> ▪️
-    <a href="#detalhes-das-sprints">Detalhes das Sprints</a> ▪️
-    <a href="#equipe">Equipe</a>
-    
-  </samp>
-</p>
+<div align="center">
+  <h1>API-2024.2</h1>
+</div>
 
-<br>
+<div align="center">
+  <h2>Projeto de IA Generativa</h2>
+</div>
 
-<h1 align="center"><samp>O PROJETO</samp>
+##### <p align="center">Projeto Integrador</p>
+<div align="center"> <img src="/readme/Logo.png" alt="Equipe bytech"/></div>
+
+##### <p align="center">  Empresa parceira - Dom Rock </p>
+
+<div align="center">
   
-  ![Equipe bytech](/readme/Objetivo.png)
-  
-  
-</h1>
-<br>
-<h1 align="center"><samp>PROPOSTA</samp></h1>
+ [Proposta do projeto](https://https://github.com/CamilaRedondo/API-FATEC-6-SEM#proposta) • [Backlog](https://https://github.com/CamilaRedondo/API-FATEC-6-SEM#backlog) • [Tecnologias](https://https://github.com/CamilaRedondo/API-FATEC-6-SEM#tecnologias) • [Entregas](https://https://github.com/CamilaRedondo/API-FATEC-6-SEM#entregas) • [Documentação](https://https://github.com/CamilaRedondo/API-FATEC-6-SEM#documentacao) • [Equipe](https://https://github.com/CamilaRedondo/API-FATEC-6-SEM#equipe)
+ 
+</div>
 
-<p align = "justify"> A proposta deste projeto é construir um sistema que utilize os depoimentos de clientes disponíveis  na fonte da B2W para fornecer respostas claras e personalizadas. Combinando técnicas de NLP com análise de sentimentos e geração de linguagem natural, o chatbot será capaz de extrair informações valiosas e tendências de comportamento dos consumidores. Isso permitirá à equipe de marketing realizar análises mais precisas, identificando pontos de melhoria na experiência de compra e ajustando suas campanhas de acordo com as percepções dos clientes. </p>
+<div name="proposta"></div>
 
-<br>
-<h1 align="center"><samp>SOLUÇÃO</samp></h1>
+# :dart: Proposta do projeto
 
-<p align = "justify"> A solução envolve o desenvolvimento de um chatbot baseado em IA generativa que utiliza um pipeline de processamento de dados capaz de acessar a base de dados de depoimentos dos clientes da B2W. Este pipeline processará as informações e armazenará os dados em um banco de vetores, permitindo ao chatbot usar a técnica RAG para fornecer respostas em linguagem natural, personalizadas de acordo com as necessidades da equipe de marketing.   </p>
+<p align="left"> A proposta visa o desenvolvimento de um chatbot inteligente baseado em IA generativa que será capaz de analisar uma vasta base de depoimentos de clientes da B2W. Esse sistema usará a técnica RAG (Retrieval Augmented Generation) para buscar respostas diretamente da base de dados vetorizada, proporcionando insights rápidos e precisos. O chatbot auxiliará equipes de marketing na personalização de campanhas e estratégias publicitárias, identificando tendências e áreas de melhoria a partir de comentários reais dos clientes. Dessa forma, ele ajudará a ajustar estratégias rapidamente e sugerir novos segmentos, otimizando a eficácia das campanhas de marketing.</p>
 
-### 📖 Requisitos funcionais
+## 📖 Requisitos funcionais
 + Busca de Respostas na Base de Dados;
 + Geração de Respostas em Linguagem Natural;
 + Integração com a Base de Dados de Vetores;
 + Engenharia de Prompt;
 
-
-### 🔖 Requisitos não funcionais
+## 🔖 Requisitos não funcionais
 + Tutorial do Usuário
 + Documentação técnica da estruturação do sistema
 + Documentação API – Application Programming Interface
+</br>
+</br>
 
-<br>
+<div name="backlog"></div> 
 
+ # :bulb: Backlog
 
+</br>
+</br>
 
-<h1 align="center"><samp>BACKLOG DO PRODUTO</samp>
+<div name="entregas"></div> 
 
-![Equipe bytech](/readme/BacklogProduto.png)
+# 📌 Entregas
+<h3><strong>Sprint 1:</strong></h3>
+<h3><strong>Sprint 2:</strong></h3>
+<h3><strong>Sprint 3:</strong></h3>
+</br>
+</br>
 
+<div name="tecnologias"></div> 
 
-<br>
+# 🛠️ Tecnologias
 
-![Equipe bytech](/readme/BacklogPadrao.png)
+As seguintes ferramentas, linguagens e tecnologias foram utilizadas na execução do projeto:
+<div style="display: inline_block">
+ <img align="center" alt="Vue.js" src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D">
+ <img align="center" alt="python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+ <img align="center" alt="ts" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+</div>
+</br>
+</br>
 
-<br>
+<div name="equipe"></div> 
 
-</h1>
-<h1 align="center"><samp>DETALHES DAS SPRINTS</samp></h1>
-<h2>Sprint 1</h2>
-<details>
-  <summary>Detalhes</summary>
-<h3 align="center">Backlog da Sprint
+# 🎓 Equipe
 
-![Equipe bytech](/readme/BacklogSprint1.png)
-
-   <br>
-</h3>
-<h3 align="center">Critérios de aceitação
-
-![Equipe bytech](/readme/CriteriosdeAceitacao1.png)
-
-   <br>
-</h3>
+<table align="center">
+  <tr>
+    <th><b>Nome</b></th>
+    <th><b>Função</b></th>
+    <th><b>Github</b></th>
+    <th><b>Linked-In</b></th>
+  </tr>
+    <tr>
+      <td>Gustavo Marques</td>
+      <td>Product Owner</td>
+      <td><a href="https://github.com/gusta7597">Github</a></td>
+      <td><a href="https://www.linkedin.com/in/gustavo-marques-lima-695b331a2/">Linked-In</a></td>
+    </tr>
+    <tr>
+      <td>Camila Redondo</td>
+      <td>Scrum Master</td>
+      <td><a href="https://github.com/CamilaRedondo">Github</a></td>
+      <td><a href="https://www.linkedin.com/in/camila-silveira-redondo-7941631ab/">Linked-In</a></td>
+    </tr>
+    <tr>
+      <td>João Henrique</td>
+      <td>Desenvolvedor</td>
+      <td><a href="https://github.com/JoaoHenrique7">Github</a></td>
+      <td><a href="https://www.linkedin.com/in/jo%C3%A3o-henrique-trist%C3%A3o-b63385207/">Linked-In</a></td>
+    </tr>
+    <tr>
+      <td>Thalles Torres</td>
+      <td>Desenvolvedor</td>
+      <td><a href="">Github</a></td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td>Douglas José Ferreira de Queiroz</td>
+      <td>Dsenvolvedor</td>
+      <td><a href="">Github</a></td>
+      <td><a href="">Linked-In</a></td>
+    </tr>
+    <tr>
+      <td>Henrique Neto</td>
+      <td>Desenvolvedor</td>
+      <td><a href="https://github.com/henriqFerreira">Github</a></td>
+      <td><a href="https://www.linkedin.com/in/henriquepfneto/">Linked-In</a></td>
+    </tr>
+    <tr>
+      <td>Yago Pereira</td>
+      <td>Desenvolvedor</td>
+      <td><a href="https://github.com/YagoPSilva">Github</a></td>
+      <td><a href="https://www.linkedin.com/in/yago-pereira21/">Linked-In</a></td>
+    </tr>
+</table>
