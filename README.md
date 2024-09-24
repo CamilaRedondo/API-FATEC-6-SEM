@@ -24,14 +24,14 @@
 <p align="left"> A proposta visa o desenvolvimento de um chatbot inteligente baseado em IA generativa que será capaz de analisar uma vasta base de depoimentos de clientes da B2W. Esse sistema usará a técnica RAG (Retrieval Augmented Generation) para buscar respostas diretamente da base de dados vetorizada, proporcionando insights rápidos e precisos. O chatbot auxiliará equipes de marketing na personalização de campanhas e estratégias publicitárias, identificando tendências e áreas de melhoria a partir de comentários reais dos clientes. Dessa forma, ele ajudará a ajustar estratégias rapidamente e sugerir novos segmentos, otimizando a eficácia das campanhas de marketing.</p>
 
 ## 📖 Requisitos funcionais
-+ Desenvolver um pipeline de processamento de dados para banco de vetor;
-+ Desenvolver um agente para engenharia de prompt em LLM;
-+ Desenvolver uma interface de chatbot integrado com agente de LLM
++ RF1 - Pipeline de Processamento de Dados para Banco de Vetor: Desenvolver o pipeline necessário para preparar, processar e armazenar os dados dos depoimentos de clientes de forma vetorizada;
++ RF2 - Agente para Engenharia de Prompt em LLM: Criar um agente que otimiza a formulação de prompts para garantir que o modelo de linguagem (LLM) gere respostas relevantes, personalizadas e de alta qualidade;
++ RF3 - Interface de Chatbot Integrado com LLM: Desenvolver uma interface amigável que conecta o agente LLM ao usuário final, permitindo que as equipes de marketing interajam diretamente com o chatbot;
++ RF4 - Funcionalidades de Análise de Sentimento e Segmentação: Melhorar a capacidade do chatbot para fornecer insights ainda mais úteis para a equipe de marketing, como análise automática de sentimentos e segmentação de usuários com base em padrões de feedback.
 
 ## 🔖 Requisitos não funcionais
-+ Tutorial do Usuário
-+ Documentação técnica da estruturação do sistema
-+ Documentação API – Application Programming Interface
++ RNF1 - Escalabilidade e Desempenho: Garantir que o sistema seja capaz de processar grandes volumes de dados e responda rapidamente às solicitações do chatbot, mantendo a experiência do usuário fluida e eficiente;
++ RNF2 - Disponibilidade de documentação para usabilidade: Garantir a disponibilidade de um 'Manual do Usuário' e um vídeo demostrando o uso do sistema.
 </br>
 </br>
 
@@ -56,7 +56,7 @@
 
 <div name="entregas"></div> 
 
-# 📌 Entregas
+# 📌 Sprints
 <h3><strong>Sprint 1:</strong></h3>
 <h3><strong>Sprint 2:</strong></h3>
 <h3><strong>Sprint 3:</strong></h3>
@@ -68,11 +68,10 @@
 # 🛠️ Tecnologias
 
 As seguintes ferramentas, linguagens e tecnologias foram utilizadas na execução do projeto:
-<div style="display: inline_block">
- <img align="center" alt="Vue.js" src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D">
- <img align="center" alt="python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
- <img align="center" alt="ts" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
-</div>
++ Vue.js;
++ Python;
++ Langchain;
++ ChromaDB.
 </br>
 </br>
 
