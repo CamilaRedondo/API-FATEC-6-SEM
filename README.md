@@ -78,6 +78,23 @@
 </br>
 </br>
 
+# :dart: MVP
+<div name="backlog">
+  <h4>Nessa sprint, focamos em entregar a integração do chatbot com a base de dados da B2W, garantindo a consulta de informações sobre satisfação do cliente.</h4>
+</div> 
+
+
+# 📌 Critérios de Aceitação 
+
+| Rank | User Story | Critério de Aceitação |
+|:-:|:-:|:-:|
+|1|Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre satisfação do cliente, padrões de compra e menções a produtos específicos.| - O chatbot deve ser integrado à base de dados da B2W e garantir o acesso seguro via credenciais de autenticação.<br>- O chatbot deve consultar e retornar informações sobre satisfação do cliente, padrões de compra e menções a produtos específicos.|
+|2|Análise de Satisfação do Cliente e Recorrência de Compra<br>Como um analista de marketing, eu quero interagir com o chatbot criado para obter dados de satisfação do cliente e recorrência de compra, para que eu possa focar nas métricas mais relevantes para campanhas de marketing. | - O chatbot deve fornecer a taxa de recorrência de compra e a média de satisfação do cliente.<br>- O chatbot deve segmentar os clientes com base na frequência de compra e nível de satisfação. |    
+|3|Análise de Sentimento em Reviews de Produtos<br>Como um analista de marketing, eu quero interagir com o chatbot para que ele analise o sentimento das reviews dos clientes (positivo, neutro, negativo) sobre produtos específicos, para que eu possa ajustar minhas campanhas conforme o sentimento predominante. | - O chatbot deve classificar reviews de produtos em sentimentos (positivo, neutro, negativo).<br>- O chatbot deve fornecer um relatório com a porcentagem de cada sentimento associado a um produto. |
+
+</br>
+</br>
+
 ## ✅ Entrega
 
   </details>
