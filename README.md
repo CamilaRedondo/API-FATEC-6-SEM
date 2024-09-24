@@ -57,7 +57,30 @@
 <div name="entregas"></div> 
 
 # 📌 Sprints
+
 <h3><strong>Sprint 1:</strong></h3>
+  <details>
+
+## 🔎 Sprint Backlog
+  | Rank | Tarefa | Status |
+  |:-:|:-:|:-:|
+  | 1    | Configuração dos repositórios Git. |     Concluído     |
+  | 2    | Design inicial do frontend no Figma. |     Concluído     |    
+  | 3    | Seleção inicial de modelos de IA. |     Concluído      |
+  | 4    | Integração básica com LangChain. |     Concluído      |
+  | 5    | Implementar retrievers simples para consultas básicas. |     Concluído      |
+  | 6    | Testes iniciais de integração entre modelos de IA e base de dados vetorial. |     Concluído      |
+  | 7    | Criar pipeline de leitura de dados CSV (reviews da B2W). |     Concluído      |
+  | 8    | Conversão dos dados CSV para o formato necessário (IA e banco de dados vetorial). |     Concluído      |
+  | 9    | Utilização de embeddings a partir dos dados da B2W. |     Concluído      |
+  | 10    | Armazenamento de embeddings no banco de vetores (ChromaDB). |     Concluído      |
+  | 10    | Implementar pipeline fim a fim para processar os dados e gerar output final. |     Concluído      |
+</br>
+</br>
+
+## ✅ Entrega
+
+  </details>
 <h3><strong>Sprint 2:</strong></h3>
 <h3><strong>Sprint 3:</strong></h3>
 </br>
@@ -108,7 +131,7 @@ As seguintes ferramentas, linguagens e tecnologias foram utilizadas na execuçã
       <td>Thalles Torres</td>
       <td>Desenvolvedor</td>
       <td><a href="">Github</a></td>
-      <td><a href=""></a></td>
+      <td><a href="www.linkedin.com/in/thalles-torres-83449a285">Linked-In</a></td>
     </tr>
     <tr>
       <td>Douglas José Ferreira de Queiroz</td>
