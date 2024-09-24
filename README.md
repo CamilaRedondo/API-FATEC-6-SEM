@@ -78,13 +78,13 @@
 </br>
 </br>
 
-# :dart: MVP
+## :dart: MVP
 <div name="backlog">
   <h4>Nessa sprint, focamos em entregar a integração do chatbot com a base de dados da B2W, garantindo a consulta de informações sobre satisfação do cliente.</h4>
 </div> 
 
 
-# 📌 Critérios de Aceitação 
+## 📌 Critérios de Aceitação 
 
 | Rank | User Story | Critério de Aceitação |
 |:-:|:-:|:-:|
