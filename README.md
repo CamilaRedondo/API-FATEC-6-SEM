@@ -24,10 +24,10 @@
 <p align="left"> A proposta visa o desenvolvimento de um chatbot inteligente baseado em IA generativa que será capaz de analisar uma vasta base de depoimentos de clientes da B2W. Esse sistema usará a técnica RAG (Retrieval Augmented Generation) para buscar respostas diretamente da base de dados vetorizada, proporcionando insights rápidos e precisos. O chatbot auxiliará equipes de marketing na personalização de campanhas e estratégias publicitárias, identificando tendências e áreas de melhoria a partir de comentários reais dos clientes. Dessa forma, ele ajudará a ajustar estratégias rapidamente e sugerir novos segmentos, otimizando a eficácia das campanhas de marketing.</p>
 
 ## 📖 Requisitos funcionais
-+ RF1 - Pipeline de Processamento de Dados para Banco de Vetor: Desenvolver o pipeline necessário para preparar, processar e armazenar os dados dos depoimentos de clientes de forma vetorizada;
-+ RF2 - Agente para Engenharia de Prompt em LLM: Criar um agente que otimiza a formulação de prompts para garantir que o modelo de linguagem (LLM) gere respostas relevantes, personalizadas e de alta qualidade;
-+ RF3 - Interface de Chatbot Integrado com LLM: Desenvolver uma interface amigável que conecta o agente LLM ao usuário final, permitindo que as equipes de marketing interajam diretamente com o chatbot;
-+ RF4 - Funcionalidades de Análise de Sentimento e Segmentação: Melhorar a capacidade do chatbot para fornecer insights ainda mais úteis para a equipe de marketing, como análise automática de sentimentos e segmentação de usuários com base em padrões de feedback.
++ RF1 - Integração com a base de dados da B2W, permitindo consultas sobre satisfação do cliente, padrões de compra e menções a produtos específicos;
++ RF2 - Análise de dados de satisfação do cliente e recorrência de compra, além da análise de sentimento em reviews de produtos para campanhas de marketing;
++ RF3 - Implementar uma interface intuitiva para interação com o chatbot;
++ RF4 - Análise de dados de satisfação do cliente e recorrência de compra, além da análise de sentimento em reviews de produtos para campanhas de marketing.
 
 ## 🔖 Requisitos não funcionais
 + RNF1 - Escalabilidade e Desempenho: Garantir que o sistema seja capaz de processar grandes volumes de dados e responda rapidamente às solicitações do chatbot, mantendo a experiência do usuário fluida e eficiente;
