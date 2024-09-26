@@ -27,7 +27,6 @@
 + RF1 - Integração com a base de dados da B2W, permitindo consultas sobre satisfação do cliente, padrões de compra e menções a produtos específicos;
 + RF2 - Análise de dados de satisfação do cliente e recorrência de compra, além da análise de sentimento em reviews de produtos para campanhas de marketing;
 + RF3 - Implementar uma interface intuitiva para interação com o chatbot;
-+ RF4 - Análise de dados de satisfação do cliente e recorrência de compra, além da análise de sentimento em reviews de produtos para campanhas de marketing.
 
 ## 🔖 Requisitos não funcionais
 + RNF1 - Escalabilidade e Desempenho: Garantir que o sistema seja capaz de processar grandes volumes de dados e responda rapidamente às solicitações do chatbot, mantendo a experiência do usuário fluida e eficiente;
