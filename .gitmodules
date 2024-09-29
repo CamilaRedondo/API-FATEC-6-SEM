@@ -1,12 +1,16 @@
 [submodule "ia"]
 	path = ia
 	url = https://github.com/CamilaRedondo/API-FATEC-6-SEM-IA
+	 branch = main
 [submodule "datalake-etl"]
 	path = datalake-etl
 	url = https://github.com/CamilaRedondo/API-FATEC-6-SEM-ETL
+	branch = main
 [submodule "backend"]
 	path = backend
 	url = https://github.com/CamilaRedondo/API-FATEC-6-SEM-BACKEND
+	branch = main
 [submodule "frontend"]
 	path = frontend
 	url = https://github.com/CamilaRedondo/API-FATEC-6-SEM-FRONTEND
+	branch = main
