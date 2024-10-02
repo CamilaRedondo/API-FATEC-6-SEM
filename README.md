@@ -27,18 +27,17 @@
 + RF1 - Respostas em Linguagem Natural sobre Análises de Produtos: O chatbot deve permitir que a equipe de marketing faça perguntas sobre análises de produtos e receba respostas em linguagem natural;
 + RF2 - Acesso a Informações sobre Satisfação do Cliente: O chatbot deve permitir que a equipe consulte dados de satisfação do cliente extraídos dos reviews da B2W para avaliar o desempenho de produtos;
 + RF3 - Acesso a Padrões de Compra: O chatbot deve fornecer informações sobre padrões de compra dos clientes, permitindo que a equipe identifique comportamentos de compra relevantes para campanhas;
-+ RF4 - Acesso a Menções de Produtos Específicos: O chatbot deve buscar menções específicas a produtos nas reviews dos clientes, para que a equipe possa analisar a percepção pública sobre produtos-chave;
++ RF4 - Extração de Percepção por Produto: O chatbot deve permitir a análise detalhada de menções a produtos específicos, identificando padrões de percepção e associações frequentes (como características elogiadas ou criticadas) para facilitar o entendimento granular da reputação de cada item.
 + RF5 - Análise de Satisfação e Recorrência de Compra: O chatbot deve realizar análises de satisfação do cliente e recorrência de compra, fornecendo insights sobre métricas cruciais para decisões de marketing;
-+ RF6 - Análise de Sentimento de Reviews: O chatbot deve ser capaz de analisar o sentimento (positivo, neutro, negativo) das reviews de produtos, ajudando a ajustar campanhas de acordo com o feedback emocional dos clientes;
-+ RF7 - Comparação de Experiência de Compra por Perfil de Cliente: O chatbot deve permitir a comparação de experiências de compra com base em perfis de clientes (idade, gênero, região), para personalizar campanhas;
-+ RF8 - Recomendações Automáticas de Produtos: O chatbot deve fornecer recomendações automáticas de produtos com base na satisfação e recorrência de compra, para otimizar campanhas publicitárias;
-+ RF9 - Classificação e Priorização de Produtos: O chatbot deve classificar e priorizar produtos com base em reviews e métricas de satisfação, permitindo à equipe de marketing focar nos produtos com maior potencial de sucesso.
++ RF6 - Análise de Sentimento de Reviews com contexto: O chatbot deve analisar o sentimento das reviews, incluindo um contexto adicional que identifique as razões por trás do sentimento (e.g., elogio ao preço, crítica ao suporte) e categorizá-las para mapear pontos fortes e fracos específicos.
++ RF7 - Comparação de Experiência de Compra por Perfil de Cliente: O chatbot deve oferecer comparações de experiência de compra, segmentadas por fatores como faixa etária, nível de gasto e recorrência, para identificar padrões comportamentais e oportunidades de personalização de campanhas por segmento.
 
 ## 🔖 Requisitos não funcionais
-+ RNF1 - Interface Intuitiva e de Fácil Uso: O chatbot deve possuir uma interface simples e intuitiva, de modo que mesmo usuários sem conhecimento técnico possam utilizá-lo de maneira eficiente e sem dificuldades;
-+ RNF2 - Desempenho e Tempo de Resposta: O sistema deve ser capaz de processar e responder às perguntas dos usuários de maneira fluida;
-+ RNF3 - Qualidade das respostas: O sistema deve ser capaz de oferecer respostas que correspondam corretamente as suas respectivas perguntas;
-+ RNF4 - Vídeo Tutorial para Novos Usuários: Deve ser criado um vídeo tutorial que demonstre o uso do chatbot, visando auxiliar usuários sem experiência tecnológica no uso das funcionalidades. 
++ RNF1 - Uso de banco de vetores: O sistema deve ser capaz de utilizar banco de vetores(ChromaDB ou FAISS) para garantindo tempos de resposta consistentes mesmo com volume alto de dados.
++ RNF2 - Vídeo Tutorial para Novos Usuários: Deve ser criado um vídeo tutorial que demonstre o uso do chatbot, visando auxiliar usuários sem experiência tecnológica no uso das funcionalidades.
++ RNF3 - Integração de Modelos LLM: O sistema deve suportar integração com modelos de linguagem pré-treinados, permitindo substituição ou atualização de modelos conforme necessário, com mínima necessidade de reconfiguração. 
++ RNF4 - Modularidade no Framework Langchain: O uso do Langchain deve ser implementado de maneira modular, permitindo a adição de novas funcionalidades ou ajustes nas cadeias de chamadas sem impacto significativo na arquitetura principal.
++ RNF5 - Suporte a Interface Responsiva: A interface desenvolvida em Vue.JS deve ser responsiva, garantindo uma experiência de uso adequada tanto em dispositivos móveis quanto em desktops, sem perda de funcionalidade.
 </br>
 </br>
 
@@ -49,13 +48,13 @@
 
 | Rank | Prioridade | User Story | Estimativa | Sprint | Requisito do Parceiro |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-| 1 | Alta | Desenvolvimento do RAG/ChromaDB<br>Como um usuário final, gostaira de fazer perguntas e receber respostas sobre as análises de produtos em linguagem natural.|| 1 | RF1, RNF2-RNF3 |
-| 2 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre satisfação do cliente.|| 1 | RF2, RNF2-RNF3 |
-| 3 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre padrões de compra.|| 1 | RF3, RNF2-RNF3 |
-| 4 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre menções a produtos específicos.|| 1 | RF4, RNF2-RNF3 |
-| 5 | Alta | Análise de Satisfação do Cliente e Recorrência de Compra<br>Como um analista de marketing, eu quero interagir com o chatbot criado para obter dados de satisfação do cliente, para que eu possa focar nas métricas mais relevantes para campanhas de marketing || 1 | RF5, RNF2-RNF3 |
-| 6 | Alta | Análise de Satisfação do Cliente e Recorrência de Compra<br>Como um analista de marketing, eu quero interagir com o chatbot criado para obter dados de  recorrência de compra, para que eu possa focar nas métricas mais relevantes para campanhas de marketing || 1 | RF5, RNF2-RNF3 |
-| 7 | Alta | Análise de Sentimento em Reviews de Produtos<br>Como um analista de marketing, eu quero interagir com o chatbot para que ele analise o sentimento das reviews dos clientes (positivo, neutro, negativo) sobre produtos específicos, para que eu possa ajustar minhas campanhas conforme o sentimento predominante. || 1 | RF6, RNF2-RNF3 |
+| 1 | Alta | Desenvolvimento do RAG/ChromaDB<br>Como um usuário final, gostaira de fazer perguntas e receber respostas sobre as análises de produtos em linguagem natural.| 20 | 1 | RF1, RNF2-RNF3 |
+| 2 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre satisfação do cliente.| 12 | 1 | RF2, RNF2-RNF3 |
+| 3 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre padrões de compra.| 12 | 1 | RF3, RNF2-RNF3 |
+| 4 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre menções a produtos específicos.| 12 | 1 | RF4, RNF2-RNF3 |
+| 5 | Alta | Análise de Satisfação do Cliente e Recorrência de Compra<br>Como um analista de marketing, eu quero interagir com o chatbot criado para obter dados de satisfação do cliente, para que eu possa focar nas métricas mais relevantes para campanhas de marketing | 12 | 1 | RF5, RNF2-RNF3 |
+| 6 | Alta | Análise de Satisfação do Cliente e Recorrência de Compra<br>Como um analista de marketing, eu quero interagir com o chatbot criado para obter dados de  recorrência de compra, para que eu possa focar nas métricas mais relevantes para campanhas de marketing | 15 | 1 | RF5, RNF2-RNF3 |
+| 7 | Alta | Análise de Sentimento em Reviews de Produtos<br>Como um analista de marketing, eu quero interagir com o chatbot para que ele analise o sentimento das reviews dos clientes (positivo, neutro, negativo) sobre produtos específicos, para que eu possa ajustar minhas campanhas conforme o sentimento predominante. | 15 | 1 | RF6, RNF2-RNF3 |
 | 8 | Média | Comparação de Experiência de Compra por Perfil de Cliente<br>Como um analista de marketing, eu quero interagir com o chatbot e fazer perguntas sobre a experiência de compra de clientes específicos (idade, gênero, região), para que eu possa obter insights personalizados para campanhas direcionadas. || 2 | RF7, RNF2-RNF3 |
 | 9 | Média | Recomendações Baseadas em Satisfação e Recorrência<br>Como um analista de marketing, eu quero interagir com o chatbot para receber recomendações automáticas de produtos com alto índice de satisfação e recorrência de compra, para que eu possa otimizar minhas campanhas publicitárias. || 2 | RF8, RNF2-RNF3 |
 | 10 | Média | Classificação e Priorização de Produtos para Marketing<br>Como um analista de marketing, eu quero interagir com o chatbot para visualizar uma classificação clara dos produtos (muito bom, bom, neutro, ruim) com base em reviews e métricas de satisfação, para que eu possa priorizar os produtos para campanhas publicitárias. || 2 | RF9, RNF2-RNF3 |
@@ -73,24 +72,29 @@
   <details>
 
 ## :dart: MVP
-<div name="backlog">
   <h4>Nessa sprint, focamos em entregar a integração do chatbot com a base de dados da B2W, garantindo a consulta de informações sobre satisfação do cliente.</h4>
-</div> 
+
+## :dart: DoR
++ 1 - Objetivo e solução definidos claramente: O escopo e os objetivos do projeto devem ser claros, incluindo a definição das funcionalidades principais do chatbot;
++ 2 - Dados/colunas definidos: As colunas e atributos relevantes nos dados (e.g., ID de produto, review, sentimento, categoria, perfil do cliente) devem estar mapeados e prontos para serem utilizados na criação dos embeddings e no treinamento de modelos;
++ 3 - Ambiente configurado: Todos os ambientes devem estar configurados com as dependências necessárias;
++ 4 - Critérios de Aceitação Especificados: Cada funcionalidade deve ter critérios de aceitação claros;
+
 
 ## 🔎 Sprint Backlog
-  | Rank | Tarefa | Status | User Story relacionada |
-  |:-:|:-:|:-:|:-:|
-  | 1    | Configuração dos repositórios Git. |     Concluído     | Todas as US da Sprint 1 |
-  | 2    | Design inicial do frontend no Figma. |     Concluído     | US11 |
-  | 3    | Seleção inicial de modelos de IA. |     Concluído      | US1 |
-  | 4    | Integração básica com LangChain. |     Concluído      | US1 |
-  | 5    | Implementar retrievers simples para consultas básicas. |     Concluído      | US1 |
-  | 6    | Testes iniciais de integração entre modelos de IA e base de dados vetorial. |     Concluído      | US1 |
-  | 7    | Criar pipeline de leitura de dados CSV (reviews da B2W). |     Concluído      | US2, US3, US4 |
-  | 8    | Conversão dos dados CSV para o formato necessário (IA e banco de dados vetorial). |     Concluído      | US1 |
-  | 9    | Utilização de embeddings a partir dos dados da B2W. |     Concluído      | US2, US3, US4, US5, US6, US7 |
-  | 10    | Armazenamento de embeddings no banco de vetores (ChromaDB). |     Concluído      | US1 |
-  | 10    | Implementar pipeline fim a fim para processar os dados e gerar output final. |     Concluído      | Todas as US da Sprint 1 |
+  | Rank | Tarefa | Status | User Story relacionada | Tag | Estimativa de Horas |
+  |:-:|:-:|:-:|:-:|:-:|:-:|
+  | 1 | Configuração dos repositórios Git. | Concluído | Todas as US da Sprint 1 | Ambiente de desenvolvimento | 5 |
+  | 2 | Design inicial do frontend no Figma. | Concluído | US11 | Front-end | 8 |
+  | 3 | Seleção inicial de modelos de IA. | Concluído | US1 | IA | 8 |
+  | 4 | Integração básica com LangChain. | Concluído | US1 | IA | 8 |
+  | 5 | Implementar retrievers simples para consultas básicas. | Concluído | US1 | IA | 15 |
+  | 6 | Testes iniciais de integração entre modelos de IA e base de dados vetorial. | Concluído | US1 | IA/Banco de dados | 15 |
+  | 7 | Criar pipeline de leitura de dados CSV (reviews da B2W). | Concluído | US2, US3, US4 | IA | 15 |
+  | 8 | Conversão dos dados CSV para o formato necessário (IA e banco de dados vetorial). | Concluído | US1 | IA/Banco de dados | 10 |
+  | 9 | Utilização de embeddings a partir dos dados da B2W. | Concluído | US2, US3, US4, US5, US6, US7 | IA | 12 |
+  | 10 | Armazenamento de embeddings no banco de vetores (ChromaDB). | Concluído | US1 | Banco de Dados | 10 |
+  | 10 | Implementar pipeline fim a fim para processar os dados e gerar output final. | Concluído | Todas as US da Sprint 1 | IA/Banco de dados| 25 |
 </br>
 </br>
 
@@ -113,6 +117,15 @@
 
   </details>
 <h3><strong>Sprint 2:</strong></h3>
+<details>
+
+## :dart: DoR
++ 1 - User Stories Detalhadas: As US definidas devem estar refinadas, com critérios de aceitação específicos para guiar o desenvolvimento e os testes.
++ 2 - Dados Estruturados e Filtrados por Segmento: Os dados de clientes devem estar prontos permitir a comparação de experiências de compra.
++ 3 - Ambiente de Testes Configurado: O ambiente de desenvolvimento e teste deve estar configurado com todos os datasets e modelos integrados.
++ 4 - Integração da Interface com as Novas Funcionalidades: O mockup da interface Vue.JS deve estar preparada para receber e alinhada com as necessidades do cliente, além de estar pronta para ser desenvolvida.
+</details>
+
 <h3><strong>Sprint 3:</strong></h3>
 </br>
 </br>
