@@ -24,20 +24,19 @@
 <p align="left"> A proposta visa o desenvolvimento de um chatbot inteligente baseado em IA generativa que será capaz de analisar uma vasta base de depoimentos de clientes da B2W. Esse sistema usará a técnica RAG (Retrieval Augmented Generation) para buscar respostas diretamente da base de dados vetorizada, proporcionando insights rápidos e precisos. O chatbot auxiliará equipes de marketing na personalização de campanhas e estratégias publicitárias, identificando tendências e áreas de melhoria a partir de comentários reais dos clientes. Dessa forma, ele ajudará a ajustar estratégias rapidamente e sugerir novos segmentos, otimizando a eficácia das campanhas de marketing.</p>
 
 ## 📖 Requisitos funcionais
-+ RF1 - Respostas em Linguagem Natural sobre Análises de Produtos: O chatbot deve permitir que a equipe de marketing faça perguntas sobre análises de produtos e receba respostas em linguagem natural;
-+ RF2 - Acesso a Informações sobre Satisfação do Cliente: O chatbot deve permitir que a equipe consulte dados de satisfação do cliente extraídos dos reviews da B2W para avaliar o desempenho de produtos;
-+ RF3 - Acesso a Padrões de Compra: O chatbot deve fornecer informações sobre padrões de compra dos clientes, permitindo que a equipe identifique comportamentos de compra relevantes para campanhas;
-+ RF4 - Extração de Percepção por Produto: O chatbot deve permitir a análise detalhada de menções a produtos específicos, identificando padrões de percepção e associações frequentes (como características elogiadas ou criticadas) para facilitar o entendimento granular da reputação de cada item.
-+ RF5 - Análise de Satisfação e Recorrência de Compra: O chatbot deve realizar análises de satisfação do cliente e recorrência de compra, fornecendo insights sobre métricas cruciais para decisões de marketing;
-+ RF6 - Análise de Sentimento de Reviews com contexto: O chatbot deve analisar o sentimento das reviews, incluindo um contexto adicional que identifique as razões por trás do sentimento (e.g., elogio ao preço, crítica ao suporte) e categorizá-las para mapear pontos fortes e fracos específicos.
-+ RF7 - Comparação de Experiência de Compra por Perfil de Cliente: O chatbot deve oferecer comparações de experiência de compra, segmentadas por fatores como faixa etária, nível de gasto e recorrência, para identificar padrões comportamentais e oportunidades de personalização de campanhas por segmento.
++ RF1 - Análise de produtos: Identificação do chatbot sobre padrões e características dos produtos apontadas pelas opiniões analisadas. 
++ RF2 - Recomendação de produtos entre chatbot para clientes (percepção do chatbot): Sugestões de produtos com base na própria análise do chatbot. 
++ RF3 - Recomendação de produtos entre clientes (percepção dos clientes): Sugestões de produtos baseadas nas recomendações dos clientes. 
++ RF4 - Análise de satisfação do cliente por produto: Avaliação do nível de contentamento por produto. 
++ RF5 - Padrões de compra de produtos por região ou idade: Identificação de tendências demográficas e comportamentais de compra. 
++ RF6 - Comparação de experiência de compra: Análise comparativa de compras entre diferentes perfis consumidores.
 
 ## 🔖 Requisitos não funcionais
-+ RNF1 - Uso de banco de vetores: O sistema deve ser capaz de utilizar banco de vetores(ChromaDB ou FAISS) para garantindo tempos de resposta consistentes mesmo com volume alto de dados.
-+ RNF2 - Vídeo Tutorial para Novos Usuários: Deve ser criado um vídeo tutorial que demonstre o uso do chatbot, visando auxiliar usuários sem experiência tecnológica no uso das funcionalidades.
-+ RNF3 - Integração de Modelos LLM: O sistema deve suportar integração com modelos de linguagem pré-treinados, permitindo substituição ou atualização de modelos conforme necessário, com mínima necessidade de reconfiguração. 
-+ RNF4 - Modularidade no Framework Langchain: O uso do Langchain deve ser implementado de maneira modular, permitindo a adição de novas funcionalidades ou ajustes nas cadeias de chamadas sem impacto significativo na arquitetura principal.
-+ RNF5 - Suporte a Interface: A interface desenvolvida em Vue.JS deve ser responsiva, garantindo uma experiência de uso adequada tanto em dispositivos móveis quanto em desktops, sem perda de funcionalidade.
++ RNF1 - BD Vetorial ChromaDB, FAISS ou outro
++ RNF2 - Modelos LLM de uso público do Huggingface
++ RNF3 - Framework Langchain
++ RNF4 - Vídeo-tutorial: Criação de um vídeo-tutorial para auxiliar usuários sem experiencia prévia.
+
 </br>
 </br>
 
@@ -48,18 +47,17 @@
 
 | Rank | Prioridade | User Story | Estimativa | Sprint | Requisito do Parceiro |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-| 1 | Alta | Desenvolvimento do RAG/ChromaDB<br>Como um usuário final, gostaira de fazer perguntas e receber respostas sobre as análises de produtos em linguagem natural.| 20 | 1 | RF1, RNF1-RNF4-RNF3 |
-| 2 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre satisfação do cliente.| 12 | 1 | RF2, RNF1-RNF4-RNF3  |
-| 3 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre padrões de compra.| 12 | 1 | RF3, RNF1-RNF4-RNF3  |
-| 4 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre menções a produtos específicos.| 12 | 1 | RF4, RNF1-RNF4-RNF3  |
-| 5 | Média | Análise de Satisfação do Cliente e Recorrência de Compra<br>Como um analista de marketing, eu quero interagir com o chatbot criado para obter dados de satisfação do cliente, para que eu possa focar nas métricas mais relevantes para campanhas de marketing | 12 | 2 | RF5, RNF1-RNF4-RNF3  |
-| 6 | Média | Análise de Satisfação do Cliente e Recorrência de Compra<br>Como um analista de marketing, eu quero interagir com o chatbot criado para obter dados de  recorrência de compra, para que eu possa focar nas métricas mais relevantes para campanhas de marketing | 15 | 2 | RF5, RNF1-RNF4-RNF3  |
-| 7 | Média | Análise de Sentimento em Reviews de Produtos<br>Como um analista de marketing, eu quero interagir com o chatbot para que ele analise o sentimento das reviews dos clientes (positivo, neutro, negativo) sobre produtos específicos, para que eu possa ajustar minhas campanhas conforme o sentimento predominante. | 15 | 2 | RF6, RNF1-RNF4-RNF3  |
-| 8 | Média | Comparação de Experiência de Compra por Perfil de Cliente<br>Como um analista de marketing, eu quero interagir com o chatbot e fazer perguntas sobre a experiência de compra de clientes específicos (idade, gênero, região), para que eu possa obter insights personalizados para campanhas direcionadas. || 2 | RF7, RNF1-RNF4-RNF3  |
-| 9 | Baixa | Recomendações Baseadas em Satisfação e Recorrência<br>Como um analista de marketing, eu quero interagir com o chatbot para receber recomendações automáticas de produtos com alto índice de satisfação e recorrência de compra, para que eu possa otimizar minhas campanhas publicitárias. || 3 | RF6, RNF1-RNF4-RNF3  |
-| 10 | Baixa | Classificação e Priorização de Produtos para Marketing<br>Como um analista de marketing, eu quero interagir com o chatbot para visualizar uma classificação clara dos produtos (muito bom, bom, neutro, ruim) com base em reviews e métricas de satisfação, para que eu possa priorizar os produtos para campanhas publicitárias. || 3 | RF7, RNF1-RNF4-RNF3  |
-| 11 | Baixa | Usabilidade<br>Como um usuário final, eu quero interagir com uma interface intuitiva, para que eu possa acessar facilmente todas as funcionalidades do chatbot || 3 | RNF5 |
-| 12 | Baixa |  Tutorial para Novos Usuários<br>Como um usuário final não técnico, eu quero interagir com um tutorial, para que eu possa aprender a utilizar o chatbot e todas as suas funcionalidades de forma rápida e eficiente.|| 3 | RNF2 |
+| 1 | Alta | Desenvolvimento do RAG/ChromaDB<br>Como um usuário final, gostaira de fazer perguntas e receber respostas sobre as análises de produtos em linguagem natural.| 20 | 1 | RF1-RF2, RNF1-RNF2-RNF3 |
+| 2 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre satisfação do cliente.| 12 | 1 | RF1-RF2,  RNF1-RNF2-RNF3 |
+| 3 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre padrões de compra.| 12 | 1 | RF1-RF2,  RNF1-RNF2-RNF3  |
+| 4 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre menções a produtos específicos.| 12 | 1 | RF1-RF2,  RNF1-RNF2-RNF3  |
+| 5 | Média | Análise de Satisfação do Cliente e Recorrência de Compra<br>Como um analista de marketing, eu quero interagir com o chatbot criado para obter dados de satisfação do cliente, para que eu possa focar nas métricas mais relevantes para campanhas de marketing | 12 | 2 | RF3-RF4,  RNF1-RNF2-RNF3  |
+| 6 | Média | Análise de Satisfação do Cliente e Recorrência de Compra<br>Como um analista de marketing, eu quero interagir com o chatbot criado para obter dados de  recorrência de compra, para que eu possa focar nas métricas mais relevantes para campanhas de marketing | 15 | 2 | RF3-RF4,  RNF1-RNF2-RNF3  |
+| 7 | Média | Análise de Sentimento em Reviews de Produtos<br>Como um analista de marketing, eu quero interagir com o chatbot para que ele analise o sentimento das reviews dos clientes (positivo, neutro, negativo) sobre produtos específicos, para que eu possa ajustar minhas campanhas conforme o sentimento predominante. | 15 | 2 |RF3-RF4,  RNF1-RNF2-RNF3  |
+| 8 | Média | Comparação de Experiência de Compra por Perfil de Cliente<br>Como um analista de marketing, eu quero interagir com o chatbot e fazer perguntas sobre a experiência de compra de clientes específicos (idade, gênero, região), para que eu possa obter insights personalizados para campanhas direcionadas. | 15 | 2 | RF3-RF4,  RNF1-RNF2-RNF3 |
+| 9 | Baixa | Recomendações Baseadas em Satisfação e Recorrência<br>Como um analista de marketing, eu quero interagir com o chatbot para receber recomendações automáticas de produtos com alto índice de satisfação e recorrência de compra, para que eu possa otimizar minhas campanhas publicitárias. | 20 | 3 | RF5-RF6,  RNF1-RNF2-RNF3 |
+| 10 | Baixa | Classificação e Priorização de Produtos para Marketing<br>Como um analista de marketing, eu quero interagir com o chatbot para visualizar uma classificação clara dos produtos (muito bom, bom, neutro, ruim) com base em reviews e métricas de satisfação, para que eu possa priorizar os produtos para campanhas publicitárias. | 12 | 3 |  RF5-RF6,  RNF1-RNF2-RNF3 |
+| 11 | Baixa |  Tutorial para Novos Usuários<br>Como um usuário final não técnico, eu quero interagir com um tutorial, para que eu possa aprender a utilizar o chatbot e todas as suas funcionalidades de forma rápida e eficiente.| 4 | 3 | RNF4 |
 
 </br>
 </br>
