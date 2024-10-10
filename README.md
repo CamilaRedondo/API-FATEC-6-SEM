@@ -25,11 +25,10 @@
 
 ## 📖 Requisitos funcionais
 + RF1 - Análise de produtos: Identificação do chatbot sobre padrões e características dos produtos apontadas pelas opiniões analisadas. 
-+ RF2 - Recomendação de produtos entre chatbot para clientes (percepção do chatbot): Sugestões de produtos com base na própria análise do chatbot. 
-+ RF3 - Recomendação de produtos entre clientes (percepção dos clientes): Sugestões de produtos baseadas nas recomendações dos clientes. 
-+ RF4 - Análise de satisfação do cliente por produto: Avaliação do nível de contentamento por produto. 
-+ RF5 - Padrões de compra de produtos por região ou idade: Identificação de tendências demográficas e comportamentais de compra. 
-+ RF6 - Comparação de experiência de compra: Análise comparativa de compras entre diferentes perfis consumidores.
++ RF2 - Recomendação de produtos entre clientes (percepção dos clientes): Sugestões de produtos baseadas nas recomendações dos clientes. 
++ RF3 - Análise de satisfação do cliente por produto: Avaliação do nível de contentamento por produto. 
++ RF4 - Padrões de compra de produtos por região ou idade: Identificação de tendências demográficas e comportamentais de compra. 
++ RF5 - Comparação de experiência de compra: Análise comparativa de compras entre diferentes perfis consumidores.
 
 ## 🔖 Requisitos não funcionais
 + RNF1 - BD Vetorial ChromaDB, FAISS ou outro
@@ -47,7 +46,7 @@
 
 | Rank | Prioridade | User Story | Estimativa | Sprint | Requisito do Parceiro |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-| 1 | Alta | Desenvolvimento do RAG/ChromaDB<br>Como um usuário final, gostaira de fazer perguntas e receber respostas sobre as análises de produtos em linguagem natural.| 20 | 1 | RF1-RF2, RNF1-RNF2-RNF3 |
+| 1 | Alta | Desenvolvimento do RAG/ChromaDB<br>Como um usuário final, gostaria de fazer perguntas e receber respostas sobre as análises de produtos em linguagem natural.| 20 | 1 | RF1-RF2, RNF1-RNF2-RNF3 |
 | 2 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre satisfação do cliente.| 12 | 1 | RF1-RF2,  RNF1-RNF2-RNF3 |
 | 3 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre padrões de compra.| 12 | 1 | RF1-RF2,  RNF1-RNF2-RNF3  |
 | 4 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre menções a produtos específicos.| 12 | 1 | RF1-RF2,  RNF1-RNF2-RNF3  |
@@ -111,6 +110,15 @@
 
 ## ✅ Entrega
 
+<h3 align="center">Recomendação de produtos entre clientes.</h3>
+
+<p align="center">
+    <img src="/readme/usabilidade_sprint_1.gif"/>
+    <br>
+    <a href="https://youtu.be/JtSUlmFG2dQ">Link para uma melhor resolução</a>
+</p>
+
+   <br>
   </details>
 <h3><strong>Sprint 2:</strong></h3>
 <details>
@@ -186,7 +194,7 @@ As seguintes ferramentas, linguagens e tecnologias foram utilizadas na execuçã
       <td>Thalles Torres</td>
       <td>Desenvolvedor</td>
       <td><a href="">Github</a></td>
-      <td><a href="www.linkedin.com/in/thalles-torres-83449a285">Linked-In</a></td>
+      <td><a href="https://www.linkedin.com/in/thalles-torres-83449a285">Linked-In</a></td>
     </tr>
     <tr>
       <td>Douglas José Ferreira de Queiroz</td>
