@@ -31,7 +31,7 @@
 + RF5 - Comparação de experiência de compra: Análise comparativa de compras entre diferentes perfis consumidores.
 
 ## 🔖 Requisitos não funcionais
-+ RNF1 - BD Vetorial ChromaDB, FAISS ou outro
++ RNF1 - BD Vetorial ChromaDB
 + RNF2 - Modelos LLM de uso público do Huggingface
 + RNF3 - Framework Langchain
 + RNF4 - Vídeo-tutorial: Criação de um vídeo-tutorial para auxiliar usuários sem experiencia prévia.
