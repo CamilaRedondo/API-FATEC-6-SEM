@@ -49,14 +49,12 @@
 | 1 | Alta | Desenvolvimento do RAG/ChromaDB<br>Como um usuário final, gostaria de fazer perguntas e receber respostas sobre as análises de produtos em linguagem natural.| 20 | 1 | RF1-RF2, RNF1-RNF2-RNF3 | Cenário 1: O usuário final faz uma pergunta sobre a qualidade de um produto específico.O chatbot utiliza a base de dados vetorial para encontrar depoimentos relevantes e responde de forma clara e objetiva, utilizando linguagem natural.<br> Cenário 2: O usuário final pergunta sobre a comparação entre dois produtos. O chatbot consulta os comentários da base, organiza os dados e fornece uma resposta resumida e compreensível.  |
 | 2 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre satisfação do cliente.| 12 | 1 | RF1-RF2,  RNF1-RNF2-RNF3 | Cenário 1: O analista de marketing pergunta sobre o nível de satisfação dos clientes para um produto específico. O chatbot acessa a base de dados da B2W e retorna uma análise com base nos depoimentos.<br> Cenário 2: O analista de marketing pergunta sobre o nível de satisfação dos clientes para um produto específico. O chatbot acessa a base de dados e não encontra o produto em especifico no contexto fornecido, o próprio informa isso.|
 | 3 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre padrões de compra.| 12 | 1 | RF1-RF2,  RNF1-RNF2-RNF3 | Cenário 1: O analista de marketing pergunta sobre o padrão de compra de clientes para um produto específico. O chatbot acessa a base de dados da B2W e retorna uma análise com base nos depoimentos.<br> Cenário 2: O analista de marketing pergunta sobre o sobre o padrão de compra de clientes para um produto específico. O chatbot acessa a base de dados e não encontra o produto em especifico no contexto fornecido, o próprio informa isso. |
-| 4 | Alta | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre menções a produtos específicos.| 12 | 1 | RF1-RF2,  RNF1-RNF2-RNF3  | Cenário 1: O analista de marketing pergunta sobre menções a produtos específicos. O chatbot acessa a base de dados da B2W e retorna uma análise com base nos depoimentos.<br> Cenário 2: O analista de marketing pergunta sobre menções a produtos específicos. O chatbot acessa a base de dados e não encontra o produto em especifico no contexto fornecido, o próprio informa isso. |
+| 4 | Media | Integração com a Base de Dados da B2W<br>Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre menções a produtos específicos.| 12 | 1 | RF1-RF2,  RNF1-RNF2-RNF3  | Cenário 1: O analista de marketing pergunta sobre menções a produtos específicos. O chatbot acessa a base de dados da B2W e retorna uma análise com base nos depoimentos.<br> Cenário 2: O analista de marketing pergunta sobre menções a produtos específicos. O chatbot acessa a base de dados e não encontra o produto em especifico no contexto fornecido, o próprio informa isso. |
 | 5 | Média | Análise de Satisfação do Cliente e Recorrência de Compra<br>Como um analista de marketing, eu quero interagir com o chatbot criado para obter dados de satisfação do cliente, para que eu possa focar nas métricas mais relevantes para campanhas de marketing | 12 | 2 | RF3-RF4,  RNF1-RNF2-RNF3  | Cenário 1: O analista de marketing pergunta sobre a satisfação dos clientes em relação a um produto recém-lançado. O chatbot acessa a base de dados e retorna um resumo da análise de sentimento.<br>Cenário 2: O analista de marketing pergunta sobre a satisfação dos clientes em relação a um produto recém-lançado. O chatbot não encontra o produto na base de dados e retorna um resumo do acontecimento.|
 | 6 | Média | Análise de Satisfação do Cliente e Recorrência de Compra<br>Como um analista de marketing, eu quero interagir com o chatbot criado para obter dados de  recorrência de compra, para que eu possa focar nas métricas mais relevantes para campanhas de marketing | 15 | 2 | RF3-RF4,  RNF1-RNF2-RNF3  | Cenário 1: O analista de marketing pergunta sobre a recorrencia de compras em relação a um produto recém-lançado. O chatbot acessa a base de dados e retorna um resumo da análise de sentimento.<br>Cenário 2: O analista de marketing pergunta sobre a recorrencia de compras a um produto recém-lançado. O chatbot não encontra o produto na base de dados e retorna um resumo do acontecimento. |
-| 7 | Média | Análise de Sentimento em Reviews de Produtos<br>Como um analista de marketing, eu quero interagir com o chatbot para que ele analise o sentimento das reviews dos clientes (positivo, neutro, negativo) sobre produtos específicos, para que eu possa ajustar minhas campanhas conforme o sentimento predominante. | 15 | 2 |RF3-RF4,  RNF1-RNF2-RNF3  |
-| 8 | Média | Comparação de Experiência de Compra por Perfil de Cliente<br>Como um analista de marketing, eu quero interagir com o chatbot e fazer perguntas sobre a experiência de compra de clientes específicos (idade, gênero, região), para que eu possa obter insights personalizados para campanhas direcionadas. | 15 | 2 | RF3-RF4,  RNF1-RNF2-RNF3 |
-| 9 | Baixa | Recomendações Baseadas em Satisfação e Recorrência<br>Como um analista de marketing, eu quero interagir com o chatbot para receber recomendações automáticas de produtos com alto índice de satisfação e recorrência de compra, para que eu possa otimizar minhas campanhas publicitárias. | 20 | 3 | RF5-RF6,  RNF1-RNF2-RNF3 |
-| 10 | Baixa | Classificação e Priorização de Produtos para Marketing<br>Como um analista de marketing, eu quero interagir com o chatbot para visualizar uma classificação clara dos produtos (muito bom, bom, neutro, ruim) com base em reviews e métricas de satisfação, para que eu possa priorizar os produtos para campanhas publicitárias. | 12 | 3 |  RF5-RF6,  RNF1-RNF2-RNF3 |
-| 11 | Baixa |  Tutorial para Novos Usuários<br>Como um usuário final não técnico, eu quero interagir com um tutorial, para que eu possa aprender a utilizar o chatbot e todas as suas funcionalidades de forma rápida e eficiente.| 4 | 3 | RNF4 |
+| 7 | Baixa | Análise de Sentimento em Reviews de Produtos<br>Como um analista de marketing, eu quero interagir com o chatbot para que ele analise o sentimento das reviews dos clientes (positivo, neutro, negativo) sobre produtos específicos, para que eu possa ajustar minhas campanhas conforme o sentimento predominante. | 15 | 2 |RF3-RF4,  RNF1-RNF2-RNF3  | O analista de marketing pede uma análise de sentimento para as reviews de um produto. O chatbot retorna que a maioria das avaliações é positiva, indicando alto índice de satisfação.<br>Cenário 2: O analista de marketing pergunta sobre o sentimento das reviews dos clientes. O chatbot não encontra o produto na base de dados e retorna um resumo do acontecimento. |
+| 8 | Baixa | Comparação de Experiência de Compra por Perfil de Cliente<br>Como um analista de marketing, eu quero interagir com o chatbot e fazer perguntas sobre a experiência de compra de clientes específicos (idade, gênero, região), para que eu possa obter insights personalizados para campanhas direcionadas. | 15 | 2 | RF3-RF4,  RNF1-RNF2-RNF3 | Cenário 1: O analista de marketing pergunta sobre a experiência de Compra por Perfil de Cliente. O chatbot acessa a base de dados e retorna um resumo da análise.<br>Cenário 2: O analista de marketing pergunta sobre a experiência de Compra por Perfil de Cliente. O chatbot não encontra o produto na base de dados e retorna um resumo do acontecimento. |
+| 9 | Baixa |  Tutorial para Novos Usuários<br>Como um usuário final não técnico, eu quero interagir com um tutorial, para que eu possa aprender a utilizar o chatbot e todas as suas funcionalidades de forma rápida e eficiente.| 4 | 3 | RNF4 |
 
 </br>
 </br>
@@ -79,19 +77,19 @@
 
 
 ## 🔎 Sprint Backlog
-  | Rank | Tarefa | Status | User Story relacionada | Tag | Estimativa de Horas |
-  |:-:|:-:|:-:|:-:|:-:|:-:|
-  | 1 | Configuração dos repositórios Git. | Concluído | Todas as US da Sprint 1 | Ambiente de desenvolvimento | 5 |
-  | 2 | Design inicial do frontend no Figma. | Concluído | US11 | Front-end | 8 |
-  | 3 | Seleção inicial de modelos de IA. | Concluído | US1 | IA | 8 |
-  | 4 | Integração básica com LangChain. | Concluído | US1 | IA | 8 |
-  | 5 | Implementar retrievers simples para consultas básicas. | Concluído | US1 | IA | 15 |
-  | 6 | Testes iniciais de integração entre modelos de IA e base de dados vetorial. | Concluído | US1 | IA/Banco de dados | 15 |
-  | 7 | Criar pipeline de leitura de dados CSV (reviews da B2W). | Concluído | US2, US3, US4 | IA | 15 |
-  | 8 | Conversão dos dados CSV para o formato necessário (IA e banco de dados vetorial). | Concluído | US1 | IA/Banco de dados | 10 |
-  | 9 | Utilização de embeddings a partir dos dados da B2W. | Concluído | US2, US3, US4, US5, US6, US7 | IA | 12 |
-  | 10 | Armazenamento de embeddings no banco de vetores (ChromaDB). | Concluído | US1 | Banco de Dados | 10 |
-  | 10 | Implementar pipeline fim a fim para processar os dados e gerar output final. | Concluído | Todas as US da Sprint 1 | IA/Banco de dados| 25 |
+  | Rank | Tarefa | Status | Tag | Estimativa de Horas |
+  |:-:|:-:|:-:|:-:|:-:|
+  | 1 | Configuração dos repositórios Git. | Concluído | Ambiente de desenvolvimento | 5 |
+  | 2 | Design inicial do frontend no Figma. | Concluído | Front-end | 8 |
+  | 3 | Seleção inicial de modelos de IA. | Concluído | IA | 8 |
+  | 4 | Integração básica com LangChain. | Concluído | IA | 8 |
+  | 5 | Implementar retrievers simples para consultas básicas. | Concluído | IA | 15 |
+  | 6 | Testes iniciais de integração entre modelos de IA e base de dados vetorial. | Concluído | IA/Banco de dados | 15 |
+  | 7 | Criar pipeline de leitura de dados CSV (reviews da B2W). | Concluído | IA | 15 |
+  | 8 | Conversão dos dados CSV para o formato necessário (IA e banco de dados vetorial). | Concluído | IA/Banco de dados | 10 |
+  | 9 | Utilização de embeddings a partir dos dados da B2W. | Concluído | IA | 12 |
+  | 10 | Armazenamento de embeddings no banco de vetores (ChromaDB). | Concluído | Banco de Dados | 10 |
+  | 10 | Implementar pipeline fim a fim para processar os dados e gerar output final. | Concluído | IA/Banco de dados | 25 |
 </br>
 </br>
 
@@ -102,7 +100,7 @@
 |1|Desenvolvimento do RAG/ChromaDB Como um usuário final, gostaria de fazer perguntas e receber respostas sobre as análises de produtos em linguagem natural.| - O chatbot deve responder perguntas em linguagem natural com base nos dados armazenados na ChromaDB. </br> - O chatbot deve utilizar o modelo RAG para garantir que as respostas sejam o mais precisas e contextualizadas.|
 |2|Integração com a Base de Dados da B2W Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre satisfação do cliente. | - O chatbot deve ser integrado à base de dados da B2W. </br> - O chatbot deve consultar e retornar informações sobre satisfação do cliente. | 
 |3|Integração com a Base de Dados da B2W Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre padrões de compra. | - O chatbot deve ser capaz de acessar dados sobre padrões de compra e fornecer respostas relevantes com base nos dados de compra de clientes. |
-|4|Integração com a Base de Dados da B2W Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre menções a produtos específicos. | - O chatbot deve permitir a consulta de menções a produtos específicos e apresentar informações organizadas. |
+
 
 
 </br>
@@ -133,19 +131,51 @@
 + 4 - Integração da Interface com as Novas Funcionalidades: O mockup da interface Vue.JS deve estar preparada para receber e alinhada com as necessidades do cliente, além de estar pronta para ser desenvolvida.
 
 ## 🔎 Sprint Backlog
+  | Rank | Tarefa | Status | Tag | Estimativa de Horas |
+  |:-:|:-:|:-:|:-:|:-:|:-:|
+  | 1 | Retirar vector store de tempo de execução e resolver problema de memória | Concluído | IA | 20 |
+  | 2 | Aprimorar o PLN, a técnica de 'chunking' e 'embedding' | Concluído | IA | 20 |
+  | 3 | Integrar o frontend com a IA | Concluído | Frontend-IA | 20 |
+  | 4 | Realizar o retriver invoke e bloquear perguntas que não tenha haver com o dataset.| Concluído | IA | 12 |
+  | 5 | Criar os endpoints para conectar a IA com o frontend envolve definir a comunicação entre o chatbot de IA generativa e a interface do usuário.| Concluído | Frontend-IA | 15 |
+  | 6 | Criação do layout do frontend | Concluído | Front-end | 18 |
+</br>
+</br>
 
 ## 📌 Critérios de Aceitação 
 
 | Rank | User Story | Critério de Aceitação |
 |:-:|:-:|:-:|
+|4|Integração com a Base de Dados da B2W Como um analista de marketing, eu quero interagir com um chatbot que tenha acesso à base de dados da B2W, para que eu possa consultar informações sobre menções a produtos específicos. | - O chatbot deve permitir a consulta de menções a produtos específicos e apresentar informações organizadas. |
 |5|Análise de Satisfação do Cliente e Recorrência de Compra Como um analista de marketing, eu quero interagir com o chatbot criado para obter dados de satisfação do cliente e recorrência de compra, para que eu possa focar nas métricas mais relevantes para campanhas de marketing. | - O chatbot deve fornecer a taxa de recorrência de compra e a média de satisfação do cliente. </br> - O chatbot deve segmentar os clientes com base na frequência de compra e nível de satisfação. |
 |6|Análise de Sentimento em Reviews de Produtos Como um analista de marketing, eu quero interagir com o chatbot para que ele analise o sentimento das reviews dos clientes (positivo, neutro, negativo) sobre produtos específicos, para que eu possa ajustar minhas campanhas conforme o sentimento predominante. | - O chatbot deve classificar reviews de produtos em sentimentos (positivo, neutro, negativo) e fornecer um resumo baseado nas análises predominantes. |
-|7|Análise de Satisfação do Cliente e Recorrência de Compra Como um analista de marketing, eu quero interagir com o chatbot para obter dados de recorrência de compra, para que eu possa identificar padrões e otimizar campanhas de marketing. | - O chatbot deve apresentar dados sobre a frequência de compra dos clientes. </br> - O chatbot deve fornecer informações sobre os clientes que realizam compras repetidas. |
-|8| Comparação de Experiência de Compra por Perfil de Cliente<br>Como um analista de marketing, eu quero interagir com o chatbot e fazer perguntas sobre a experiência de compra de clientes específicos (idade, gênero, região), para que eu possa obter insights personalizados para campanhas direcionadas. | - O chatbot deve gerar respostas diferenciadas com base nos filtros, destacando insights relevantes para cada perfil de cliente (ex: preferências de compra por faixa etária e região).|
-| 11 | Usabilidade<br>Como um usuário final, eu quero interagir com uma interface intuitiva, para que eu possa acessar facilmente todas as funcionalidades do chatbot | - O usúario deve ser capaz de utilizar o sistema sem problemas de interface ou pouco intuitivo|
+
+</br>
+</br>
+
+## ✅ Entrega
 </details>
 
 <h3><strong>Sprint 3:</strong></h3>
+<details>
+
+## :dart: MVP
+<h4>.</h4>
+
+## :dart: DoR
++ 1 - 
+
+## 🔎 Sprint Backlog
+
+## 📌 Critérios de Aceitação 
+
+| Rank | User Story | Critério de Aceitação |
+|:-:|:-:|:-:|
+|7|Análise de Satisfação do Cliente e Recorrência de Compra Como um analista de marketing, eu quero interagir com o chatbot para obter dados de recorrência de compra, para que eu possa identificar padrões e otimizar campanhas de marketing. | - O chatbot deve apresentar dados sobre a frequência de compra dos clientes. </br> - O chatbot deve fornecer informações sobre os clientes que realizam compras repetidas. |
+|8| Comparação de Experiência de Compra por Perfil de Cliente<br>Como um analista de marketing, eu quero interagir com o chatbot e fazer perguntas sobre a experiência de compra de clientes específicos (idade, gênero, região), para que eu possa obter insights personalizados para campanhas direcionadas. | - O chatbot deve gerar respostas diferenciadas com base nos filtros, destacando insights relevantes para cada perfil de cliente (ex: preferências de compra por faixa etária e região).|
+
+
+</details>
 </br>
 </br>
 
