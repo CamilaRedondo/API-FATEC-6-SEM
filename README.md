@@ -160,12 +160,29 @@
 <details>
 
 ## :dart: MVP
-<h4>.</h4>
+<h4>Para a 3ª sprint, nosso foco foi implementar testes múltiplos modelos de IA e realizar a engenharia de prompts, garantindo respostas precisas e eficientes para o chatbot. Também avançamos na comparação entre os modelos, identificando o mais adequado, e realizamos a refatoração e otimização do código para melhor desempenho.</h4>
 
 ## :dart: DoR
-+ 1 - 
++ 1 - User Stories Detalhadas: As User Stories para a sprint devem estar bem definidas e detalhadas, com critérios de aceitação específicos.
++ 2 - Definição dos Modelos de IA: Os modelos de IA selecionados devem estar definidos.
++ 3 - Integração dos Prompts com o ChromaDB: Os prompts devem estar preparados e ajustados para interação otimizada com o banco ChromaDB, alinhados para extrair informações precisas e fornecer respostas adequadas ao usuário.
++ 4 - Ambiente de Testes Configurado e Validado: Todo o ambiente de desenvolvimento deve estar configurado com acesso aos datasets, modelos e ferramentas de monitoramento.
++ 5 - Base para o Vídeo Tutorial Organizada: A estrutura do vídeo tutorial devem estar definidos, cobrindo as principais funcionalidades do chatbot.
+
 
 ## 🔎 Sprint Backlog
+  | Rank | Tarefa | Status | Tag | Estimativa de Horas |
+  |:-:|:-:|:-:|:-:|:-:|
+  | 1 | Implementar diferentes modelos de IA. |  | IA | 20 |
+  | 2 | Engenharia de Prompts. |  | IA | 20 |
+  | 3 | Comparar resultados dos modelos. |  | IA | 20 |
+  | 4 | Refatoração e otimização. |  | Ambiente de desenvolvimento | 12 |
+  | 5 | Testes finais e entrega do produto.|  | Testes | 15 |
+  | 5 | Criação do video tutorial.|  | Usabilidade | 15 |
+  
+
+</br>
+</br>
 
 ## 📌 Critérios de Aceitação 
 
@@ -173,7 +190,12 @@
 |:-:|:-:|:-:|
 |7|Análise de Satisfação do Cliente e Recorrência de Compra Como um analista de marketing, eu quero interagir com o chatbot para obter dados de recorrência de compra, para que eu possa identificar padrões e otimizar campanhas de marketing. | - O chatbot deve apresentar dados sobre a frequência de compra dos clientes. </br> - O chatbot deve fornecer informações sobre os clientes que realizam compras repetidas. |
 |8| Comparação de Experiência de Compra por Perfil de Cliente<br>Como um analista de marketing, eu quero interagir com o chatbot e fazer perguntas sobre a experiência de compra de clientes específicos (idade, gênero, região), para que eu possa obter insights personalizados para campanhas direcionadas. | - O chatbot deve gerar respostas diferenciadas com base nos filtros, destacando insights relevantes para cada perfil de cliente (ex: preferências de compra por faixa etária e região).|
+|9| Tutorial para Novos Usuários<br>Como um usuário final não técnico, eu quero interagir com um tutorial, para que eu possa aprender a utilizar o chatbot e todas as suas funcionalidades de forma rápida e eficiente.||
 
+</br>
+</br>
+
+## ✅ Entrega
 
 </details>
 </br>
