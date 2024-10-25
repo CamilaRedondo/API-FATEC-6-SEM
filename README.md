@@ -132,7 +132,7 @@
 
 ## 🔎 Sprint Backlog
   | Rank | Tarefa | Status | Tag | Estimativa de Horas |
-  |:-:|:-:|:-:|:-:|:-:|:-:|
+  |:-:|:-:|:-:|:-:|:-:|
   | 1 | Retirar vector store de tempo de execução e resolver problema de memória | Concluído | IA | 20 |
   | 2 | Aprimorar o PLN, a técnica de 'chunking' e 'embedding' | Concluído | IA | 20 |
   | 3 | Integrar o frontend com a IA | Concluído | Frontend-IA | 20 |
