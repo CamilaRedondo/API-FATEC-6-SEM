@@ -25,21 +25,25 @@
 
 ## 📖 Requisitos funcionais
 + RF1 - Análise de produtos: Identificação do chatbot sobre padrões e características dos produtos apontadas pelas opiniões analisadas.
-• Usabilidade:
-  • Pergunta: Me fala caracteristicas do Iphone 8
-  • Resposta: * Tela de 5,5 polegadas * Processador iOS 11 * Opções de estoque: 64GB * Suporte a 4G e Wi-Fi * Camera traseira de 12MP * Cor disponível: dourado (no caso do iPhone 8 Plus) e cinza espacial.
+  + Usabilidade:
+    + Pergunta: Me fala caracteristicas do Iphone 8
+    + Resposta: * Tela de 5,5 polegadas * Processador iOS 11 * Opções de estoque: 64GB * Suporte a 4G e Wi-Fi * Camera traseira de 12MP * Cor disponível: dourado (no caso do iPhone 8 Plus) e cinza espacial.
 + RF2 - Recomendação de produtos entre clientes (percepção dos clientes): Sugestões de produtos baseadas nas recomendações dos clientes.
-  • Pergunta: Me indique smartphones
-  • Resposta:  1. Smartphone Samsung Galaxy J5 Prime, 2. Smartphone Samsung Galaxy J5 Prime, 3. Smartphone LG G6
+  + Usabilidade:
+    + Pergunta: Me indique smartphones
+    + Resposta:  1. Smartphone Samsung Galaxy J5 Prime, 2. Smartphone Samsung Galaxy J5 Prime, 3. Smartphone LG G6
 + RF3 - Análise de satisfação do cliente por produto: Avaliação do nível de contentamento por produto.
-  • Pergunta: Me fale a satisfação de todas as reviews do produto Smartphone Samsung Galaxy J5
-  • Resposta: A satisfação dos clientes com o produto Smartphone Samsung Galaxy J5 é baixa. Das 4 reviews fornecidas, 3 delas são negativas e 1 é positiva. A review com nota 1 menciona problemas com a tela do produto, que começou a piscar alguns minutos após o uso.
+  + Usabilidade:
+    + Pergunta: Me fale a satisfação de todas as reviews do produto Smartphone Samsung Galaxy J5
+    + Resposta: A satisfação dos clientes com o produto Smartphone Samsung Galaxy J5 é baixa. Das 4 reviews fornecidas, 3 delas são negativas e 1 é positiva. A review com nota 1 menciona problemas com a tela do produto, que começou a piscar alguns minutos após o uso.
 + RF4 - Padrões de compra de produtos por região ou idade: Identificação de tendências demográficas e comportamentais de compra.
-  • Pergunta: Me fale qual foi a categoria de compra mais feita em no estado de SP
-  • Resposta: Sobre as informações fornecidas, podemos ver que as categorias de compra mais frequentes no estado de SP foram: * Ferramentas jardim e  * Beleza e perfumaria
+  + Usabilidade:
+    + Pergunta: Me fale qual foi a categoria de compra mais feita em no estado de SP
+    + Resposta: Sobre as informações fornecidas, podemos ver que as categorias de compra mais frequentes no estado de SP foram: * Ferramentas jardim e  * Beleza e perfumaria
 + RF5 - Comparação de experiência de compra: Análise comparativa de compras entre diferentes perfis consumidores.
-  • Pergunta: Me de comparação de experiencia de compra sobre o seguinte produto: Smartphone Motorola Moto G5 Plus
-  • Resposta: Existem quatro reviews para o produto Motorola Moto G5 Plus: A primeira review com um rating de 5 estrelas menciona que o smartphone é rápido, preciso, com boa bateria e design agradável. O reviewer também destaca que o produto tem um espaço de armazenamento adequado e funções intuitivas. A segunda review com um rating de 1 estrela menciona que o smartphone parou de funcionar após apenas 3 meses de uso, após uma atualização de software. O reviewer também criticou a Motorola por não ter resolvido o problema e negar as motivações da paralisação. A terceira review com um rating de 2 estrelas menciona que o reviewer comprou o produto e a entrega foi rápida, mas a transportadora não movimentou o produto após 15 dias e emitiu uma nota fiscal. A quarta review com um rating de 5 estrelas menciona que o smartphone atendeu às expectativas do reviewer, com câmeras excelentes e uma bateria que carrega rapidamente.
+  + Usabilidade:
+    + Pergunta: Me de comparação de experiencia de compra sobre o seguinte produto: Smartphone Motorola Moto G5 Plus
+    + Resposta: Existem quatro reviews para o produto Motorola Moto G5 Plus: A primeira review com um rating de 5 estrelas menciona que o smartphone é rápido, preciso, com boa bateria e design agradável. O reviewer também destaca que o produto tem um espaço de armazenamento adequado e funções intuitivas. A segunda review com um rating de 1 estrela menciona que o smartphone parou de funcionar após apenas 3 meses de uso, após uma atualização de software. O reviewer também criticou a Motorola por não ter resolvido o problema e negar as motivações da paralisação. A terceira review com um rating de 2 estrelas menciona que o reviewer comprou o produto e a entrega foi rápida, mas a transportadora não movimentou o produto após 15 dias e emitiu uma nota fiscal. A quarta review com um rating de 5 estrelas menciona que o smartphone atendeu às expectativas do reviewer, com câmeras excelentes e uma bateria que carrega rapidamente.
 
 ## 🔖 Requisitos não funcionais
 + RNF1 - BD Vetorial ChromaDB
