@@ -175,7 +175,7 @@
 <p align="center">
     <img src="/readme/usabilidade_sprint_2_rf1.gif"/>
     <br>
-    <a href="https://youtu.be/">Link para uma melhor resolução</a>
+    <a href="https://youtu.be/ACrOamonwGQ">Link para uma melhor resolução</a>
 </p>
 </br>
 
@@ -184,7 +184,7 @@
 <p align="center">
     <img src="/readme/usabilidade_sprint_2_rf3.gif"/>
     <br>
-    <a href="https://youtu.be/">Link para uma melhor resolução</a>
+    <a href="https://youtu.be/vi4vMpG3HIo">Link para uma melhor resolução</a>
 </p>
 </br>
 </details>
