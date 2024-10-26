@@ -123,7 +123,7 @@
 
 ## ✅ Entrega
 
-<h3 align="center">Recomendação de produtos entre clientes.</h3>
+<h4 align="center">Recomendação de produtos entre clientes.</h4>
 
 <p align="center">
     <img src="/readme/usabilidade_sprint_1.gif"/>
@@ -169,6 +169,24 @@
 </br>
 
 ## ✅ Entrega
+
+<h4 align="center">Análise de produtos: Identificação do chatbot sobre padrões e características</h4>
+
+<p align="center">
+    <img src="/readme/usabilidade_sprint_2_rf1.gif"/>
+    <br>
+    <a href="https://youtu.be/">Link para uma melhor resolução</a>
+</p>
+</br>
+
+<h4 align="center">Análise de satisfação do cliente por produto: Avaliação do nível de contentamento por produto.</h4>
+
+<p align="center">
+    <img src="/readme/usabilidade_sprint_2_rf3.gif"/>
+    <br>
+    <a href="https://youtu.be/">Link para uma melhor resolução</a>
+</p>
+</br>
 </details>
 
 <h3><strong>Sprint 3:</strong></h3>
