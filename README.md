@@ -69,7 +69,7 @@
 | 6 | Média | Análise de Satisfação do Cliente e Recorrência de Compra<br>Como um analista de marketing, eu quero interagir com o chatbot criado para obter dados de  recorrência de compra, para que eu possa focar nas métricas mais relevantes para campanhas de marketing | 15 | 2 | RF3-RF4,  RNF1-RNF2-RNF3  | Cenário 1: O analista de marketing pergunta sobre a recorrencia de compras em relação a um produto recém-lançado. O chatbot acessa a base de dados e retorna um resumo da análise de sentimento.<br>Cenário 2: O analista de marketing pergunta sobre a recorrencia de compras a um produto recém-lançado. O chatbot não encontra o produto na base de dados e retorna um resumo do acontecimento. |
 | 7 | Baixa | Análise de Sentimento em Reviews de Produtos<br>Como um analista de marketing, eu quero interagir com o chatbot para que ele analise o sentimento das reviews dos clientes (positivo, neutro, negativo) sobre produtos específicos, para que eu possa ajustar minhas campanhas conforme o sentimento predominante. | 15 | 2 |RF3-RF4,  RNF1-RNF2-RNF3  | O analista de marketing pede uma análise de sentimento para as reviews de um produto. O chatbot retorna que a maioria das avaliações é positiva, indicando alto índice de satisfação.<br>Cenário 2: O analista de marketing pergunta sobre o sentimento das reviews dos clientes. O chatbot não encontra o produto na base de dados e retorna um resumo do acontecimento. |
 | 8 | Baixa | Comparação de Experiência de Compra por Perfil de Cliente<br>Como um analista de marketing, eu quero interagir com o chatbot e fazer perguntas sobre a experiência de compra de clientes específicos (idade, gênero, região), para que eu possa obter insights personalizados para campanhas direcionadas. | 15 | 2 | RF3-RF4,  RNF1-RNF2-RNF3 | Cenário 1: O analista de marketing pergunta sobre a experiência de Compra por Perfil de Cliente. O chatbot acessa a base de dados e retorna um resumo da análise.<br>Cenário 2: O analista de marketing pergunta sobre a experiência de Compra por Perfil de Cliente. O chatbot não encontra o produto na base de dados e retorna um resumo do acontecimento. |
-| 9 | Baixa |  Tutorial para Novos Usuários<br>Como um usuário final não técnico, eu quero interagir com um tutorial, para que eu possa aprender a utilizar o chatbot e todas as suas funcionalidades de forma rápida e eficiente.| 4 | 3 | RNF4 |
+| 9 | Baixa | Tutorial para Novos Usuários<br>Como um usuário final não técnico, eu quero interagir com um tutorial, para que eu possa aprender a utilizar o chatbot e todas as suas funcionalidades de forma rápida e eficiente.| 4 | 3 | RNF4 |  |
 
 </br>
 </br>
@@ -206,12 +206,12 @@
 ## 🔎 Sprint Backlog
   | Rank | Tarefa | Status | Tag | Estimativa de Horas |
   |:-:|:-:|:-:|:-:|:-:|
-  | 1 | Implementar diferentes modelos de IA. |  | IA | 20 |
-  | 2 | Engenharia de Prompts. |  | IA | 20 |
-  | 3 | Comparar resultados dos modelos. |  | IA | 20 |
-  | 4 | Refatoração e otimização. |  | Ambiente de desenvolvimento | 12 |
-  | 5 | Testes finais e entrega do produto.|  | Testes | 15 |
-  | 5 | Criação do video tutorial.|  | Usabilidade | 15 |
+  | 1 | Implementar diferentes modelos de IA. | Em progresso | IA | 20 |
+  | 2 | Engenharia de Prompts. | Em progresso | IA | 20 |
+  | 3 | Comparar resultados dos modelos. | Em progresso | IA | 20 |
+  | 4 | Refatoração e otimização. | Em progresso | Ambiente de desenvolvimento | 12 |
+  | 5 | Testes finais e entrega do produto.| Em progresso | Testes | 15 |
+  | 5 | Criação do video tutorial.| Em progresso | Usabilidade | 15 |
   
 
 </br>
@@ -223,7 +223,7 @@
 |:-:|:-:|:-:|
 |7|Análise de Satisfação do Cliente e Recorrência de Compra Como um analista de marketing, eu quero interagir com o chatbot para obter dados de recorrência de compra, para que eu possa identificar padrões e otimizar campanhas de marketing. | - O chatbot deve apresentar dados sobre a frequência de compra dos clientes. </br> - O chatbot deve fornecer informações sobre os clientes que realizam compras repetidas. |
 |8| Comparação de Experiência de Compra por Perfil de Cliente<br>Como um analista de marketing, eu quero interagir com o chatbot e fazer perguntas sobre a experiência de compra de clientes específicos (idade, gênero, região), para que eu possa obter insights personalizados para campanhas direcionadas. | - O chatbot deve gerar respostas diferenciadas com base nos filtros, destacando insights relevantes para cada perfil de cliente (ex: preferências de compra por faixa etária e região).|
-|9| Tutorial para Novos Usuários<br>Como um usuário final não técnico, eu quero interagir com um tutorial, para que eu possa aprender a utilizar o chatbot e todas as suas funcionalidades de forma rápida e eficiente.||
+|9| Tutorial para Novos Usuários<br>Como um usuário final não técnico, eu quero interagir com um tutorial, para que eu possa aprender a utilizar o chatbot e todas as suas funcionalidades de forma rápida e eficiente.| - O tutorial deve cobrir as funcionalidades principais do chatbot, como iniciar uma conversa, consultar informações, e executar comandos básicos. <br> - O tutorial deve ter boa qualidade de áudio e vídeo, garantindo que os usuários possam compreender claramente as instruções e o conteúdo apresentado. |
 
 </br>
 </br>
