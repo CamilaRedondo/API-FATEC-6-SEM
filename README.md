@@ -36,10 +36,10 @@
   + Usabilidade:
     + Pergunta: Me fale a satisfação de todas as reviews do produto Smartphone Samsung Galaxy J5
     + Resposta: A satisfação dos clientes com o produto Smartphone Samsung Galaxy J5 é baixa. Das 4 reviews fornecidas, 3 delas são negativas e 1 é positiva. A review com nota 1 menciona problemas com a tela do produto, que começou a piscar alguns minutos após o uso.
-+ RF4 - Padrões de compra de produtos por região ou idade: Identificação de tendências demográficas e comportamentais de compra.
++ RF4 - Ideia para campanhas: Criação de ideias para marketing com base em feedbacks
   + Usabilidade:
-    + Pergunta: Me fale qual foi a categoria de compra mais feita em no estado de SP
-    + Resposta: Sobre as informações fornecidas, podemos ver que as categorias de compra mais frequentes no estado de SP foram: * Ferramentas jardim e  * Beleza e perfumaria
+    + Pergunta: Como podemos usar os feedbacks dos clientes para criar uma nova campanha de marketing?"
+    + Resposta: Excelente pergunta! A partir dos feedbacks dos clientes, podemos identificar alguns pontos que podem ser utilizados para criar uma nova campanha de marketing: 1. Transparência: O cliente menciona que valoriza a transparência da empresa. Podemos criar uma campanha que destaque a transparência da nossa empresa, mostrando como trabalhamos para ser ...
 + RF5 - Comparação de experiência de compra: Análise comparativa de compras entre diferentes perfis consumidores.
   + Usabilidade:
     + Pergunta: Me de comparação de experiencia de compra sobre o seguinte produto: Smartphone Motorola Moto G5 Plus
