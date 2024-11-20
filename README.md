@@ -278,7 +278,7 @@ As seguintes ferramentas, linguagens e tecnologias foram utilizadas na execuçã
     <tr>
       <td>Thalles Torres</td>
       <td>Desenvolvedor</td>
-      <td><a href="">Github</a></td>
+      <td><a href="https://github.com/thallestorres">Github</a></td>
       <td><a href="https://www.linkedin.com/in/thalles-torres-83449a285">Linked-In</a></td>
     </tr>
     <tr>
