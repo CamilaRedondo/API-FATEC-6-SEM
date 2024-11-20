@@ -206,7 +206,7 @@
 ## 🔎 Sprint Backlog
   | Rank | Tarefa | Status | Tag | Estimativa de Horas |
   |:-:|:-:|:-:|:-:|:-:|
-  | 1 | Implementar diferentes modelos de IA. | Em progresso | IA | 20 |
+  | 1 | Implementar diferentes modelos de IA. | Concluido | IA | 20 |
   | 2 | Engenharia de Prompts. | Em progresso | IA | 20 |
   | 3 | Comparar resultados dos modelos. | Em progresso | IA | 20 |
   | 4 | Refatoração e otimização. | Em progresso | Ambiente de desenvolvimento | 12 |
