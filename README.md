@@ -300,7 +300,7 @@ As seguintes ferramentas, linguagens e tecnologias foram utilizadas na execuçã
     <tr>
       <td>Douglas José Ferreira de Queiroz</td>
       <td>Dsenvolvedor</td>
-      <td><a href="">Github</a></td>
+      <td><a href="https://github.com/douglaswe">Github</a></td>
       <td><a href="">Linked-In</a></td>
     </tr>
     <tr>
