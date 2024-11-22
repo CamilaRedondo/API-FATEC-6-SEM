@@ -207,11 +207,11 @@
   | Rank | Tarefa | Status | Tag | Estimativa de Horas |
   |:-:|:-:|:-:|:-:|:-:|
   | 1 | Implementar diferentes modelos de IA. | Concluido | IA | 20 |
-  | 2 | Engenharia de Prompts. | Em progresso | IA | 20 |
-  | 3 | Comparar resultados dos modelos. | Em progresso | IA | 20 |
-  | 4 | Refatoração e otimização. | Em progresso | Ambiente de desenvolvimento | 12 |
-  | 5 | Testes finais e entrega do produto.| Em progresso | Testes | 15 |
-  | 5 | Criação do video tutorial.| Em progresso | Usabilidade | 15 |
+  | 2 | Engenharia de Prompts. | Concluido | IA | 20 |
+  | 3 | Comparar resultados dos modelos. | Concluido | IA | 20 |
+  | 4 | Refatoração e otimização. | Em progresso | Concluido | 12 |
+  | 5 | Testes finais e entrega do produto.| Concluido | Testes | 15 |
+  | 5 | Criação do video tutorial.| Concluido | Usabilidade | 15 |
   
 
 </br>
@@ -229,6 +229,22 @@
 </br>
 
 ## ✅ Entrega
+
+<h4 align="center">Ideia para campanhas: Criação de ideias para marketing com base em feedbacks</h4>
+<p align="center">
+    <img src="/readme/usabilidade_sprint_3_rf4.gif"/>
+    <br>
+    <a href="https://youtu.be/pfvrSn_8XUs">Link para uma melhor resolução</a>
+</p>
+</br>
+
+<h4 align="center">Comparação de experiência de compra: Análise comparativa de compras entre diferentes perfis consumidores</h4>
+<p align="center">
+    <img src="/readme/usabilidade_sprint_3_rf5.gif"/>
+    <br>
+    <a href="https://youtu.be/JM9tgYW5css">Link para uma melhor resolução</a>
+</p>
+</br>
 
 </details>
 </br>
