@@ -215,7 +215,7 @@ Veja ele caso tenha alguma dúvida ou necessita de ajuda para utilizar nosso cha
   | 1 | Implementar diferentes modelos de IA. | Concluido | IA | 20 |
   | 2 | Engenharia de Prompts. | Concluido | IA | 20 |
   | 3 | Comparar resultados dos modelos. | Concluido | IA | 20 |
-  | 4 | Refatoração e otimização. | Em progresso | Concluido | 12 |
+  | 4 | Refatoração e otimização. | Concluido | Melhoria de codigo | 12 |
   | 5 | Testes finais e entrega do produto.| Concluido | Testes | 15 |
   | 5 | Criação do video tutorial.| Concluido | Usabilidade | 15 |
   
