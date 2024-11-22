@@ -54,6 +54,12 @@
 </br>
 </br>
 
+
+### Vídeo Tutorial
+Neste link você será capaz de ver um vídeo sobre como utilizar nossa aplicação!
+Veja ele caso tenha alguma dúvida ou necessita de ajuda para utilizar nosso chatbot
+<a href="https://youtu.be/McugaAjm0JY">Link para Tutorial</a>
+
 <div name="backlog"></div> 
 
  # :bulb: Backlog
