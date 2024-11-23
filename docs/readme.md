@@ -6,6 +6,6 @@
 ## :video_camera: Vídeo
 <p align="left"> Os vídeos no link abaixo tem como objetivo demostrar a usabilidade do chatbot.</p>
 
-<p align="left"> Neste primeiro conjunto de vídeos (ou na versão inicial do chatbot), nosso foco está em fornecer respostas relacionadas à análise de produtos. Esse conteúdo é voltado especialmente para a equipe de marketing, com o objetivo de revelar a percepção do público sobre produtos específicos, como laptops e aspiradores de pó. Com essas informações, a equipe de marketing pode ajustar suas campanhas de forma mais estratégica, alinhando-as ao que os consumidores valorizam e esperam desses produtos.</p>
+<p align="left"> Neste vídeo, nosso foco está em fornecer respostas relacionadas à análise de produtos. Esse conteúdo é voltado especialmente para a equipe de marketing, com o objetivo de revelar a percepção do usuário sobre como o mercado está absorvendo o produto. Com essas informações, a equipe de marketing pode ajustar suas campanhas de forma mais estratégica, alinhando-as ao que os consumidores valorizam e esperam desses produtos.</p>
 
 <a href="https://www.youtube.com/watch?v=McugaAjm0JY" target="_blank">Acesse o vídeo</a>
